@@ -1,6 +1,6 @@
 {
   "name": "kasukabe-express-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "preferGlobal": true,
   "description": "CLI to install a simple Express.js starter with TypeScript",
   "main": "bin/index.js",
