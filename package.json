@@ -1,0 +1,27 @@
+{
+  "name": "kasukabe-express-ts",
+  "version": "1.0.1",
+  "preferGlobal": true,
+  "description": "CLI to install a simple Express.js starter with TypeScript",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "simple-express-server": "./bin/index.js"
+  },
+  "files": [
+    "template",
+    "bin"
+  ],
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.17"
+  },
+  "keywords": [
+    "express",
+    "starter",
+    "typescript",
+    "cli"
+  ],
+  "author": "Subhraneel Goswami",
+  "license": "MIT"
+}
