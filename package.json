@@ -1,17 +1,19 @@
 {
   "name": "kasukabe-express-ts",
-  "version": "1.0.2",
-  "preferGlobal": true,
+  "version": "1.0.5",
   "description": "CLI to install a simple Express.js starter with TypeScript",
   "main": "bin/index.js",
   "type": "module",
   "bin": {
-    "simple-express-server": "./bin/index.js"
+    "kasukabe-express-ts": "./bin/index.js"
   },
   "files": [
-    "template",
-    "bin"
+    "template/",
+    "bin/"
   ],
+  "scripts": {
+    "prepublishOnly": "chmod +x bin/index.js"
+  },
   "dependencies": {
     "fs-extra": "^11.1.1",
     "inquirer": "^9.2.17"

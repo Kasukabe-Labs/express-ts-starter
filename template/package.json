@@ -1,24 +1,30 @@
 {
-  "name": "kasukabe-express-ts",
+  "name": "express-typescript-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -b",
-    "start": "node dist/index.js"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch & nodemon dist/index.js"
   },
-  "keywords": [],
+  "keywords": ["express", "typescript"],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Express.js TypeScript starter project",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^12.1.2",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
+    "@types/node": "^20.0.0",
+    "nodemon": "^3.0.0",
     "rollup": "^4.43.0",
-    "tslib": "^2.8.1"
+    "tslib": "^2.8.1",
+    "typescript": "^5.0.0"
   }
 }
